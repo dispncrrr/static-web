@@ -1,0 +1,183 @@
+* {
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  background-color: #f9c5c8;
+}
+
+nav {
+  background-color: #ff9999;
+  padding: 15px;
+}
+
+.brand-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.fa-caret-down {
+  padding-left: 5px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(250, 82, 82);
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(250, 82, 82);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 600;
+  flex-direction: column;
+}
+
+form {
+  width: fit-content;
+  margin-bottom: 100px;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.container form p {
+  margin: 0;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+form input {
+  background-color: white;
+  border: 1px solid whitesmoke;
+  display: inherit;
+  width: 400px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+textarea {
+  width: 400px;
+  height: 100%;
+  border: none;
+  padding: 10px;
+  resize: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn1 {
+  box-sizing: border-box;
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  font-size: 16px;
+  background-color: rgb(250, 82, 82);
+  font-family: "Righteous";
+  width: 100%;
+}
+
+.footer {
+  background-color: rgb(253, 38, 81);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  color: #f9f9f9;
+  font-family: "Cormorant Upright";
+  font-weight: 100;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.footer1 a {
+  color: #f9f9f9;
+}
+
+.footer1 a:hover {
+  color: yellow;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
